@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+cachet/plugins/example_app/BuildConfig.java
+ cachet.plugins.example_app.BuildConfig

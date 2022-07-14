@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1424519942/android.device_info_plus.iml" filepath="$PROJECT_DIR$/.idea/modules/1424519942/android.device_info_plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1100440251/android.device_info_plus_linux.iml" filepath="$PROJECT_DIR$/.idea/modules/1100440251/android.device_info_plus_linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/639595453/android.device_info_plus_macos.iml" filepath="$PROJECT_DIR$/.idea/modules/639595453/android.device_info_plus_macos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1182414106/android.device_info_plus_web.iml" filepath="$PROJECT_DIR$/.idea/modules/1182414106/android.device_info_plus_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-99377398/android.device_info_plus_windows.iml" filepath="$PROJECT_DIR$/.idea/modules/-99377398/android.device_info_plus_windows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/397727404/android.health.iml" filepath="$PROJECT_DIR$/.idea/modules/397727404/android.health.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/637365149/android.permission_handler.iml" filepath="$PROJECT_DIR$/.idea/modules/637365149/android.permission_handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-655029395/android.permission_handler_android.iml" filepath="$PROJECT_DIR$/.idea/modules/-655029395/android.permission_handler_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1213000414/android.permission_handler_apple.iml" filepath="$PROJECT_DIR$/.idea/modules/-1213000414/android.permission_handler_apple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/556021695/android.permission_handler_windows.iml" filepath="$PROJECT_DIR$/.idea/modules/556021695/android.permission_handler_windows.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cachet.plugins.example_app"
+4    android:versionCode="1"
+5    android:versionName="4.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+22-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:5-78
+22-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:9:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:5-80
+23-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:10:22-78
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:5-78
+24-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:11:22-76
+25
+26    <application
+26-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:12:5-40:19
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.6.0] /Users/thangtk/.gradle/caches/transforms-3/d118b71b31ac2018b0687bad4db3eb97/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:14:9-43
+30        android:label="health_example" >
+30-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:13:9-39
+31        <activity
+31-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:15:9-39:20
+32            android:name="cachet.plugins.example_app.MainActivity"
+32-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:16:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:19:13-144
+34            android:exported="true"
+34-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:21:13-36
+35            android:hardwareAccelerated="true"
+35-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:20:13-47
+36            android:launchMode="singleTop"
+36-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:17:13-43
+37            android:theme="@style/LaunchTheme"
+37-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:18:13-47
+38            android:windowSoftInputMode="adjustResize" >
+38-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:22:13-55
+39
+40            <!-- Specify that the launch screen should continue being displayed -->
+41            <!-- until Flutter renders its first frame. -->
+42            <meta-data
+42-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:25:13-27:70
+43                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+43-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:26:21-85
+44                android:resource="@drawable/launch_background" />
+44-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:27:21-67
+45
+46            <!-- Theme to apply as soon as Flutter begins rendering frames -->
+47            <meta-data
+47-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:30:13-33:15
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:31:21-76
+49                android:resource="@style/NormalTheme" />
+49-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:32:21-58
+50            <meta-data
+50-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:34:13-75
+51                android:name="flutterEmbedding"
+51-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:34:24-55
+52                android:value="2" />
+52-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:34:56-73
+53
+54            <intent-filter>
+54-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:35:13-38:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:36:17-68
+55-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:36:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:37:17-76
+57-->/Users/thangtk/Documents/Flutter/flutter-plugins/packages/health/example/android/app/src/main/AndroidManifest.xml:37:27-74
+58            </intent-filter>
+59        </activity>
+60
+61        <uses-library
+61-->[androidx.window:window:1.0.0-beta04] /Users/thangtk/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+62            android:name="androidx.window.extensions"
+62-->[androidx.window:window:1.0.0-beta04] /Users/thangtk/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0-beta04] /Users/thangtk/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+64        <uses-library
+64-->[androidx.window:window:1.0.0-beta04] /Users/thangtk/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+65            android:name="androidx.window.sidecar"
+65-->[androidx.window:window:1.0.0-beta04] /Users/thangtk/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+66            android:required="false" />
+66-->[androidx.window:window:1.0.0-beta04] /Users/thangtk/.gradle/caches/transforms-3/c291a541648cf1084eba3acf0d5d6a11/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-fitness:21.0.1] /Users/thangtk/.gradle/caches/transforms-3/bffc405ee42ba317e1c85646f314f64c/transformed/jetified-play-services-fitness-21.0.1/AndroidManifest.xml:23:9-25:38
+69            android:name="com.google.gms.fitness.sdk.version"
+69-->[com.google.android.gms:play-services-fitness:21.0.1] /Users/thangtk/.gradle/caches/transforms-3/bffc405ee42ba317e1c85646f314f64c/transformed/jetified-play-services-fitness-21.0.1/AndroidManifest.xml:24:13-62
+70            android:value="20.0.0" />
+70-->[com.google.android.gms:play-services-fitness:21.0.1] /Users/thangtk/.gradle/caches/transforms-3/bffc405ee42ba317e1c85646f314f64c/transformed/jetified-play-services-fitness-21.0.1/AndroidManifest.xml:25:13-35
+71
+72        <activity
+72-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:23:9-27:75
+73            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+73-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:24:13-93
+74            android:excludeFromRecents="true"
+74-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:25:13-46
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:26:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:27:13-72
+77        <!--
+78            Service handling Google Sign-In user revocation. For apps that do not integrate with
+79            Google Sign-In, this service will never be started.
+80        -->
+81        <service
+81-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:33:9-37:51
+82            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+82-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:34:13-89
+83            android:exported="true"
+83-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:35:13-36
+84            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+84-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:36:13-107
+85            android:visibleToInstantApps="true" />
+85-->[com.google.android.gms:play-services-auth:20.2.0] /Users/thangtk/.gradle/caches/transforms-3/f3b29f546135d82067cd3e1ba0c77f8c/transformed/jetified-play-services-auth-20.2.0/AndroidManifest.xml:37:13-48
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:18.0.1] /Users/thangtk/.gradle/caches/transforms-3/c2192f193bc8d13a09376fb3667a720e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:18.0.1] /Users/thangtk/.gradle/caches/transforms-3/c2192f193bc8d13a09376fb3667a720e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:18.0.1] /Users/thangtk/.gradle/caches/transforms-3/c2192f193bc8d13a09376fb3667a720e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:18.0.1] /Users/thangtk/.gradle/caches/transforms-3/c2192f193bc8d13a09376fb3667a720e/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:18.0.0] /Users/thangtk/.gradle/caches/transforms-3/f2ad23f153d54e3a2d28e23aa8a6fa50/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:18.0.0] /Users/thangtk/.gradle/caches/transforms-3/f2ad23f153d54e3a2d28e23aa8a6fa50/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:18.0.0] /Users/thangtk/.gradle/caches/transforms-3/f2ad23f153d54e3a2d28e23aa8a6fa50/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+95    </application>
+96
+97</manifest>
