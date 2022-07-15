@@ -3,12 +3,12 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'health'
-  s.version          = '1.0.4'
+  s.version          = '1.0.0'
   s.summary          = 'Wrapper for the iOS HealthKit and Android GoogleFit services.'
   s.description      = <<-DESC
 Wrapper for the iOS HealthKit and Android GoogleFit services.
                        DESC
-  s.homepage         = 'https://pub.dev/packages/health'
+  s.homepage         = 'https://github.com/Sotatek-ThangBui/health.git'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Copenhagen Center for Health Technology' => 'cph.cachet@gmail.com' }
   s.source           = { :path => '.' }
